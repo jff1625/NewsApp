@@ -1,0 +1,25 @@
+{
+  "name": "news-app",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "pretest": "eslint src/*.js",
+    "test": "jest",
+    "build": "webpack"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-plugin-jest": "^21.15.1",
+    "jest": "^22.4.3",
+    "regenerator-runtime": "^0.11.1",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^2.1.3"
+  }
+}
